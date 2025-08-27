@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+
+<body class="bg-gradient-to-t from-[#2E6F40] to-[#68BA7F]">
+  <div class="bg-[#2E6F40] shadow-2xl p-4 mb-8 h-20 w-full flex items-center justify-between">
+    <div class="bg-[#2E6F40] hover:bg-[#245533] transition-all duration-500 p-2 rounded inline-block">
+      <a class="text-2xl font-bold text-white underline hover:text-[#FFEB3B] transition-all duration-500">
+        Vincent John A. Tamaño
+      </a>
+    </div>
+
+    <div class="flex space-x-6">
+      <a class="inline-block text-2xl font-bold text-white transition-all duration-[500ms] hover:text-lime-500 hover:scale-110">
+        Projects
+      </a>
+      <a class="inline-block text-2xl font-bold text-white transition-all duration-[500ms] hover:text-lime-500 hover:scale-110">
+        About
+      </a>
+      <a class="inline-block text-2xl font-bold text-white transition-all duration-[500ms] hover:text-lime-500 hover:scale-110">
+        Contact
+      </a>
+      
+    </div>
+  </div>
+
+  
+  <section class="py-12 min-h-screen flex items-center justify-between px-16  opacity-0 translate-y-10 scroll-animation">
+    <div class="w-1/2 h-[500px] bg-gray-300 rounded-xl shadow-lg flex items-center justify-center">
+      <img src="profile.png" alt="" class="w-full h-full object-cover rounded-xl shadow-lg transform transition-transform duration-1000 hover:scale-105" />
+    </div>
+
+    <div class="w-1/2 space-y-4 text-right">
+      <p class="text-8xl font-bold text-white transform transition-transform duration-1000 hover:translate-x-4">Hello!!</p>
+      <p class="text-6xl text-white font-semibold">I'm Vincent,</p>
+      <p class="text-4xl text-gray-200">Your Friendly</p>
+      <p class="text-9xl font-extrabold text-yellow-300 drop-shadow-lg">Weeb</p>
+    </div>
+  </section>
+
+ <section class="py-12 min-h-screen flex flex-col items-center px-16 opacity-0 translate-y-10 scroll-animation">
+  
+  <h2 class="text-6xl font-bold text-white mb-12">My Projects</h2>
+
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
+  <a href="index.html">
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+      <img src="project1.png" alt="Project 1" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-2xl font-bold mb-2">TooBig.water</h3>
+        <p class="text-gray-700">This web site is a platform used for selling different kinds of water containers and bottles.</p>
+      </div>
+    </div>
+  </a>
+
+    
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+      <img src="project2.jpg" alt="Project 2" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-2xl font-bold mb-2">Project 2</h3>
+        <p class="text-gray-700">A brief description of the project goes here.</p>
+      </div>
+    </div>
+
+    
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+      <img src="project3.jpg" alt="Project 3" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-2xl font-bold mb-2">Project 3</h3>
+        <p class="text-gray-700">A brief description of the project goes here.</p>
+      </div>
+    </div>
+  </div>
+
+ 
+</section>
+</body>
+</html>

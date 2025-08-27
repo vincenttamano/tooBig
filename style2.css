@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Knewave&family=Chewy&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(99, 214, 255, 1) 50%, rgba(136, 238, 247, 1) 100%);
+    overflow-x: hidden; 
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background: inherit; 
+    background-clip: padding-box;
+    backdrop-filter: blur(10px); 
+    display: flex;
+    align-items: center;
+}
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo-box {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav ul {
+    width: 100%;
+    height: 70px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin: 0;
+    padding: 0 30px; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 3, 5);
+    padding: 10px 15px; 
+    border-radius: 8px; 
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.15); 
+    color: #03acfb; 
+}
+
+.content-1 {
+    height: 600px;
+    width: 100%; 
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px;
+    background: transparent;
+}
+
+p {
+    line-height: 60px;
+}
+
+.box {
+    height: 600px;
+    width: auto;
+    padding: 60px;
+}
+
+.sentence1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #003984; 
+}
+
+.sentence2 {
+    font-family: 'Chewy', cursive; 
+    font-size: 100px;   
+    color: #f8fafc; 
+}
+
+.sentence3 {
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #003984; 
+}
+
+img {
+    max-width: 400px;
+    max-height: 100%;
+}
+
+.btn {
+    font: 20px 'Poppins', sans-serif;
+    padding: 15px 25px;
+    background: linear-gradient(to right, #1e3a8a, #3b82f6); 
+    border: none;
+    border-radius: 12px;
+    color: #f1f5f9;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #2563eb, #60a5fa); 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.content-2 {
+    height: 600px;
+    width: 100%; 
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: transparent; 
+    margin-bottom: 100px;   
+}
+
+.box2 {
+    height: 600px;
+    width: 300px;
+    border: 2px solid transparent; 
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    color: #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.box2 .image-area {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+}
+.box2 .image-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box2 .text {
+    flex: 1;
+    background: rgba(30, 64, 175, 0.8);
+    display: block;            
+    padding: 10px;
+    font-size: 16px;             
+    font-weight: 500;
+    text-align: justify;        
+    border-radius: 10px;
+    overflow-y: auto;            
+    max-height: 120px;          
+}
+.box2 .nameProduct {     
+    text-align: center;
+    margin: 15px 0 10px 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+.nameProduct h3 {
+    font-family: 'Chewy', cursive;
+    font-weight: bolder;
+    color: #001f74;  
+    font-size: 2rem;
+}
+.heading {
+    width: 100%;
+    height: auto; 
+    background: transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+    color: #1e3a8a; 
+    margin-bottom: 50px;
+}
+
+.heading h1,
+.heading p {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.content-3 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: transparent; 
+    margin-bottom: 50px;   
+}
+.heading2 {
+    width: 100%;
+    height: auto; 
+    background: transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+    color: #1e3a8a; 
+    margin-top: 100px;
+}
+
+.heading2 h1,
+.heading2 p {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.content-4 {
+    height: 600px;
+    width: 100%; 
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: transparent;    
+}
+.content-4 .header h1 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Chewy', cursive; 
+    color: #1e3a8a;
+    background: transparent;
+    margin-bottom: 20px;
+}
+
+.heading3 h1,
+.heading3 p {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.content-5{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: transparent; 
+    video {
+        width: 1000px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+       
+}
+
+.footer {
+    width: 100%;
+    background: rgba(30, 64, 175, 0.9); 
+    color: #f1f5f9;
+    text-align: left;
+    padding: 30px 40px;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.footer p {
+  margin: 0;  
+  line-height: 1.5;
+}
+
+.footer .feedback {
+  margin-top: 15px;    
+}
+
+.feedback h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feedback textarea {
+    width: 80%;
+    max-width: 500px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    resize: vertical;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.feedback .btn {
+    margin-top: 10px;
+}
